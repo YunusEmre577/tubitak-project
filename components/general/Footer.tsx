@@ -10,3 +10,6 @@ export default function Footer() {
     </footer>
   )
 }
+
+
+// deploy et artık
