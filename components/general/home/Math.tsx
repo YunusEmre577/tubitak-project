@@ -7,7 +7,7 @@ export default function Math() {
     const [area, setArea] = useState<number|null>(null)
     const [efficiency, setEfficiency] = useState<number|null>(null)
     const [sunLight, setSunLight] = useState<number|null>(null)
-
+//yunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunusyunus
   return (
     <section className='flex flex-col items-center responsive gap-12'>
         <Heading size="4xl">Haydi, Sen Hesapla!</Heading>
