@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Anasayfa",
+        "icon": "solar:home-2",
+        "href": "/",
+        "soon":false
+    },
+    {
+        "title": "Hakkında",
+        "icon": "solar:info-square",
+        "href": "/about",
+        "soon":false
+    },
+    {
+        "title": "İletişim",
+        "icon": "solar:call-chat",
+        "href": "/contact",
+        "soon":false
+    },
+    {
+        "title": "Proje",
+        "icon": "solar:backpack",
+        "href": "/project",
+        "soon":false
+    },
+    {
+        "title": "Blog",
+        "icon": "solar:box",
+        "href": "/blog",
+        "soon":true
+    }
+]

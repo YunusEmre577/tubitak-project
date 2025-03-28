@@ -1,0 +1,33 @@
+[
+    {
+        "author": "Nevriye GÖKSU",
+        "col_span":2,
+        "image": "https://i.pinimg.com/236x/a2/80/e2/a280e2a50bf6240f29b49a72875adee5.jpg",
+        "occ": "Başöğretmen",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices consequat est, gravida mattis nibh ultrices id. Sed lacinia, arcu sed euismod accumsan, nisi dolor accumsan ligula, placerat auctor felis elit sed mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque et tortor vitae dolor elementum venenatis. Praesent mollis, nibh vel sodales aliquam, ipsum risus fringilla mauris, vitae mollis mi diam vitae ligula. Maecenas tincidunt id enim quis porttitor. Nam in nisi accumsan, aliquam ex vitae, lacinia leo. Suspendisse viverra metus sit amet est sollicitudin sollicitudin. Cras sagittis, magna in venenatis eleifend, urna purus gravida lorem, ac lobortis orci ipsum quis orci. Integer ornare enim erat, ut dictum ligula mollis eu. Duis ut eros sem. Sed dignissim et massa ultricies rhoncus. Nulla cursus interdum lectus, id vulputate lacus rhoncus quis. Aliquam malesuada, velit non semper pretium, nisi ex tincidunt nisi, at luctus ipsum turpis sed mauris. Sed tempus ultricies tortor ut accumsan. Curabitur efficitur, ante et scelerisque maximus, sem arcu varius arcu, porttitor blandit justo ipsum ac orci."
+    },
+    {
+        "author": "Yunus Emre GÜN",
+        "image": "https://i.pinimg.com/236x/a2/80/e2/a280e2a50bf6240f29b49a72875adee5.jpg",
+        "occ": "Website Yönetimi",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "author": "Eymen ÖZTÜRK",
+        "image": "https://media-ist1-2.cdn.whatsapp.net/v/t61.24694-24/473397785_1806500586844254_4070662843611131199_n.jpg?ccb=11-4&oh=01_Q5AaIZ2P9wbCgZBBqjMCX0RoJRJlI_-GOG29UMuhqJ-2_gFq&oe=67F0FF75&_nc_sid=5e03e0&_nc_cat=100",
+        "occ": "Maket Yapımı",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "author": "Ömer Asaf KOCABAŞ",
+        "image": "https://media-ist1-2.cdn.whatsapp.net/v/t61.24694-24/414632629_320921911075061_4271751340134350004_n.jpg?ccb=11-4&oh=01_Q5AaIQsGDvElh43TgSNTsoa0m82QiaogiQohUEgZTvkubjQL&oe=67EBE7A5&_nc_sid=5e03e0&_nc_cat=100",
+        "occ": "Maket Yapımı",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+        "author": "Tolga ÖZBAKIR",
+        "image": "https://media-ist1-2.cdn.whatsapp.net/v/t61.24694-24/462418423_528212796616590_6341524887408047659_n.jpg?ccb=11-4&oh=01_Q5AaIZM5dXr2YIfUK3EAG4GY2PPaxSk8TTTjKwjP-1Z0oDfZ&oe=67ECF3C8&_nc_sid=5e03e0&_nc_cat=100",
+        "occ": "Maket Yapımı",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+]

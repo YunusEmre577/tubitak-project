@@ -1,0 +1,62 @@
+{
+  "1": {
+    "labels": ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran"],
+    "datasets": [
+      {
+        "label": "Su Tasarrufu (m³)",
+        "data": [100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000],
+        "borderColor": "#a3b3ff",
+        "backgroundColor": "#a3b3ff",
+        "tension": 0.4,
+        "fill": true,
+        "pointHoverRadius": 6,
+        "borderWidth": 2
+      }
+    ]
+  },
+  "2": {
+    "labels": ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran"],
+    "datasets": [
+      {
+        "label": "Enerji Üretimi (kWh)",
+        "data": [100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000],
+        "borderColor": "#ffcc99",
+        "backgroundColor": "#ffcc99",
+        "tension": 0.4,
+        "fill": true,
+        "pointHoverRadius": 6,
+        "borderWidth": 2
+      }
+    ]
+  },
+  "3": {
+    "labels": ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran"],
+    "datasets": [
+      {
+        "label": "Su Kalitesi İyileşmesi (%)",
+        "data": [100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000],
+        "borderColor": "#66cc66",
+        "backgroundColor": "#66cc66",
+        "tension": 0.4,
+        "fill": true,
+        "pointHoverRadius": 6,
+        "borderWidth": 2
+      }
+    ]
+  },
+  "4": {
+    "labels": ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran"],
+    "datasets": [
+      {
+        "label": "Sera Gazı Emisyon Azalması (ton CO₂)",
+        "data": [100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000, 100000],
+        "borderColor": "#ff6666",
+        "backgroundColor": "#ff6666",
+        "tension": 0.4,
+        "fill": true,
+        "pointHoverRadius": 6,
+        "borderWidth": 2
+      }
+    ]
+  }
+}

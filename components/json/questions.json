@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Güneş panelleri ile barajın birleşimi nasıl çalışır?",
+        "answer": "Güneş panelleri üzerine kurulan barajlar, su buharlaşmasını azaltarak su seviyelerinin korunmasına yardımcı olur. Ayrıca barajlar, güneş enerjisinden elde edilen elektriği depolayarak enerji verimliliğini artırır."
+    },
+    {
+        "question": "Bu proje çevreye nasıl fayda sağlar?",
+        "answer": "Güneş enerjisi ve su tasarrufu sağlayan bu proje, karbon ayak izini azaltarak çevreye büyük katkı sağlar. Ayrıca su kaynaklarının daha verimli kullanılması, ekosistemlerin korunmasına yardımcı olur."
+    },
+    {
+        "question": "Projemin yatırım maliyetini nasıl hesaplayabilirim?",
+        "answer": "Yatırım maliyeti, barajın büyüklüğüne, güneş paneli sayısına, kurulumu yapacak ekipman ve iş gücüne göre değişir. Detaylı bir hesaplama için uzmanlarımızla iletişime geçebilirsiniz."
+    },
+    {
+        "question": "Proje tamamlandıktan sonra bakım nasıl yapılır?",
+        "answer": "Güneş panelleri ve barajların bakımı, düzenli kontrol ve temizlik gerektirir. Ayrıca, su seviyesinin izlenmesi ve panel verimliliği düzenli olarak kontrol edilmelidir."
+    },
+    {
+        "question": "Güneş panellerinin verimliliği ne kadar süreyle korunur?",
+        "answer": "Güneş panelleri genellikle 25-30 yıl arasında verimli çalışır. Zamanla verimlilikte düşüş olabilir, ancak düzenli bakım ve temizlikle panellerin ömrü uzatılabilir."
+    }
+]

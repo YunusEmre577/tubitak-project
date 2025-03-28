@@ -1,0 +1,1 @@
+declare module "react-slick" // declaration file kontrollerini görmezden gel
