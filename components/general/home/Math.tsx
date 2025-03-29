@@ -3,8 +3,9 @@ import Heading from '../../ui/Heading';
 import { TextField } from '@/components/ui/TextField';
 import { Button } from '../../ui/Button';
 import Chart from "@/components/ui/Chart"
+import { ChartData } from 'chart.js';
 
-const initialChartData = {
+const initialChartData: ChartData<"bar"> = {
   labels: ["1. Gün", "2. Gün", "3. Gün", "4. Gün", "5. Gün", "6. Gün"],
   datasets: [
     {
@@ -38,7 +39,6 @@ export default function Math() {
             data: monthlyData,
             backgroundColor: '#b073ed',
             borderColor: '#a78be1',
-            tension: 0.3,
           },
         ],
       });
