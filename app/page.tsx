@@ -2,6 +2,7 @@
 import Footer from "@/components/general/Footer";
 import Header from "@/components/general/Header";
 import Bottom from "@/components/general/home/Bottom";
+import Features from "@/components/general/home/Features";
 import FooterSection from "@/components/general/home/FooterSection";
 import HeroSection from "@/components/general/home/HeroSection";
 import Math from "@/components/general/home/Math";
@@ -25,6 +26,7 @@ export default function Home() {
         <HeroSection />
         <div className="mt-16"><Section /></div>
         <Middle/>
+        <Features />
         <Bottom />
         <Questions />
         <Math />
