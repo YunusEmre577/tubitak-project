@@ -30,7 +30,7 @@ export function Button({
     "cursor-pointer flex flex-row-reverse items-center justify-center gap-2 text-[15px] font-semibold transition disabled:opacity-50 disabled:pointer-events-none"
 
   const sizeStyles = isIconOnly
-    ? "h-10 w-10 rounded-full"
+    ? "h-9 w-9 rounded-full"
     : "p-2.5 px-5 rounded-full"
 
   const variantColorStyles: Record<Variant, Record<Color, string>> = {
