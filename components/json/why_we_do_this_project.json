@@ -1,38 +1,38 @@
 [
   {
-    "icon": "solar:accessibility-outline",
+    "icon": "solar:accessibility-bold-duotone",
     "title": "Su Buharlaşmasını Azaltma",
-    "description": "Güneş panelleri, baraj yüzeyini kısmen kapatarak suyun doğrudan güneş ışınlarına maruz kalmasını azaltır. Bu sayede buharlaşma oranı düşer.",
+    "description": "Güneş panelleri, suyu güneşten koruyarak buharlaşmayı azaltır.",
     "description2": "Güneş panellerinin baraj yüzeyine yerleştirilmesi, suyun doğrudan güneş ışığına maruz kalmasını engelleyerek, özellikle sıcak yaz aylarında buharlaşmanın azaltılmasına yardımcı olur. Bu sayede suyun korunması sağlanır ve barajda biriken su daha verimli bir şekilde kullanılabilir. Ayrıca, bu işlem su seviyelerinin dengelenmesine katkı sağlarken, doğal kaynakların korunmasına olanak tanır."
   },
   {
-    "icon": "solar:video-frame-outline",
+    "icon": "solar:video-frame-bold-duotone",
     "title": "Çift Amaçlı Alan Kullanımı",
-    "description": "Baraj yüzeyine yerleştirilen paneller hem enerji üretir hem de mevcut su yüzeyinin değerlendirilmesini sağlar. Bu, alan verimliliğini maksimuma çıkarır.",
+    "description": "Aynı alanda hem enerji üretilir hem de su yüzeyi değerlendirilir.",
     "description2": "Güneş panelleri baraj yüzeyine yerleştirildiğinde, aynı alanda hem enerji üretimi yapılabilir hem de suyun korunması sağlanır. Bu yöntem, yerleşim yerlerine uzak bölgelerde enerji üretimi için uygun alanlar oluştururken, barajlardaki suyun değerlendirilmesini de mümkün kılar. Çift amaçlı kullanım, hem enerji hem de su kaynaklarını daha verimli kullanarak, çevreye olan etkiyi azaltır ve sürdürülebilir kalkınmaya katkı sağlar."
   },
   {
-    "icon": "solar:battery-charge-outline",
+    "icon": "solar:battery-charge-bold-duotone",
     "title": "Enerji Üretimi",
-    "description": "Kurulan güneş panelleri sayesinde çevre dostu ve sürdürülebilir enerji üretilir. Bu enerji, baraj tesisinin ihtiyacını karşılamak için kullanılabilir.",
+    "description": "Paneller çevre dostu enerji üretir ve barajın ihtiyacını karşılar.",
     "description2": "Güneş enerjisi sistemleri, doğrudan güneş ışığından yararlanarak elektrik üretir. Bu enerji, çevre dostu ve sıfır karbon salınımı ile enerji üretimi sağlar. Baraj tesislerinde kurulan güneş panelleri, enerji ihtiyacını karşılamak için kullanılabilir ve baraj tesisinin sürdürülebilirliğini artırır. Ayrıca, yenilenebilir enerji kullanımı, fosil yakıtların kullanımını azaltarak çevresel etkileri minimize eder."
   },
   {
-    "icon": "solar:wad-of-money-outline",
+    "icon": "solar:wad-of-money-bold-duotone",
     "title": "Altyapı Maliyeti Avantajı",
-    "description": "Panellerin su yüzeyine kurulması, kara tabanlı sistemlerdeki zemin hazırlığı gibi bazı maliyetleri ortadan kaldırır. Böylece proje bütçesi daha verimli kullanılır.",
+    "description": "Suya kurulum, kara sistemlerine göre daha az altyapı maliyeti gerektirir.",
     "description2": "Güneş panellerinin su yüzeyine kurulması, geleneksel kara tabanlı sistemlere göre bazı altyapı maliyetlerini azaltır. Su yüzeyine yerleştirilen paneller, zemin hazırlığı, inşaat işleri ve yer hazırlığı gibi ek maliyetlerden tasarruf sağlar. Bu yöntemle, projede kullanılan bütçe daha verimli hale gelir ve ek harcamalar minimuma indirilir. Ayrıca, kurulumu daha hızlı ve kolay olan bu sistem, zamandan da tasarruf sağlar."
   },
   {
-    "icon": "solar:waterdrop-outline",
+    "icon": "solar:waterdrop-bold-duotone",
     "title": "Su Kalitesinin Korunması",
-    "description": "Azalan buharlaşma ile birlikte su sıcaklığı daha dengeli kalır. Bu durum, alg ve bakteriyel oluşumların önüne geçerek su kalitesini korur.",
+    "description": "Güneşten korunan su, daha temiz ve dengeli sıcaklıkta kalır.",
     "description2": "Güneş panelleri sayesinde su yüzeyine doğrudan güneş ışığına maruz kalma azalır. Bu durum, suyun sıcaklığının daha dengeli kalmasını sağlar ve bu da su kalitesinin korunmasına katkı sağlar. Sıcaklık dalgalanmaları, alg ve bakteriyel oluşumların artmasına neden olabilirken, daha stabil bir su sıcaklığı, ekosistemi korur ve suyun biyolojik dengesini iyileştirir. Bu sayede, su kaynaklarının kirlenmesi önlenmiş olur."
   },
   {
-    "icon": "solar:earth-outline",
+    "icon": "solar:earth-bold-duotone",
     "title": "İklim Değişikliğiyle Mücadele",
-    "description": "Yenilenebilir enerjiye geçiş ve su kaynaklarının korunması, iklim değişikliğinin etkilerini azaltmada önemli rol oynar.",
+    "description": "Temiz enerji ve su korunumu, iklim değişikliğiyle mücadeleye katkı sağlar.",
     "description2": "Yenilenebilir enerji kaynakları, fosil yakıtların yerine kullanılacak temiz enerji seçenekleri sunar. Bu tür enerji üretimi, karbondioksit ve diğer sera gazlarının salınımını azaltarak, iklim değişikliğinin olumsuz etkilerini engellemeye yardımcı olur. Su kaynaklarının korunması da, doğal dengenin sürdürülmesi ve ekosistemlerin güçlenmesi için önemlidir. Güneş panelleriyle yapılan enerji üretimi, hem iklim değişikliğine karşı mücadeleyi destekler hem de su kaynaklarının sürdürülebilirliğini sağlar."
   }
 ]

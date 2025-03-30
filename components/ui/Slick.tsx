@@ -10,11 +10,11 @@ function Arrows(props: { onClick?: () => void; type: "next" | "prev" }) {
     const { onClick } = props;
     return(
         <div className={cn("", {
-            "absolute -bottom-16 -right-0": props.type == "next",
-            "absolute -bottom-16 right-12": props.type == "prev",
+            "absolute -bottom-14 -right-0": props.type == "next",
+            "absolute -bottom-14 right-12": props.type == "prev",
             "": props.type == "prev",
         })} onClick={onClick}>
-            <span className="h-10 w-10 rounded-full bg-accent/60 flex items-center justify-center transition hover:brightness-90 backdrop-blur-sm cursor-pointer"><Icon icon={`solar:alt-arrow-${props.type == "next" ? "right" : "left"}-outline`} /></span>
+            <span className="flex h-10 w-10 hover:bg-accent/60 rounded-full items-center justify-center transition hover:brightness-90 backdrop-blur-sm cursor-pointer"><Icon icon={`solar:arrow-${props.type == "next" ? "right" : "left"}-outline`} /></span>
         </div>
     )
 }

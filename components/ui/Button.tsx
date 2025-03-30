@@ -36,7 +36,7 @@ export function Button({
   const variantColorStyles: Record<Variant, Record<Color, string>> = {
     solid: {
       primary: "bg-colored text-white hover:brightness-95",
-      secondary: "bg-neutral-200 text-black hover:bg-neutral-300",
+      secondary: "bg-tertiary text-foreground hover:bg-accent",
     },
     outline: {
       primary: "border border-colored text-black hover:bg-neutral-100",

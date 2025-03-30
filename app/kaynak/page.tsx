@@ -89,7 +89,7 @@ export default function page() {
             <Heading size='4xl'>Kaynaklar</Heading>
             <div className='flex flex-col gap-3 mt-12'>
                 {kaynak.map(item => (
-                    <Link href={item.url} key={item.sitename} className='bg-secondary/60 hover:bg-secondary/40 transition rounded-2xl flex flex-col gap-2 p-6'>
+                    <Link href={item.url} key={item.sitename} className='bg-secondary/60 hover:bg-secondary/75 transition rounded-2xl flex flex-col gap-2 p-6'>
                         <div className='flex flex-col gap-0'>
                         <div className='flex items-center gap-2'>
                         <img src={item.icon} className={cn('rounded-full', {"bg-colored":item.icon==null})} width={22} height={22} />

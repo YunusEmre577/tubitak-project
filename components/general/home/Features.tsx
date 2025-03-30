@@ -58,7 +58,7 @@ export default function Features() {
               <footer>
                 <p className='text-center text-muted text-[15px]'>{feature.description}</p>
                 <div className='justify-end flex mt-6'>
-          <Button isIconOnly>
+          <Button color="secondary" isIconOnly>
             <PlusIcon />
           </Button>
         </div>
@@ -96,7 +96,7 @@ export default function Features() {
               <footer>
                 <p className='text-center text-muted text-[15px]'>{feature.description}</p>
                 <div className='justify-end flex mt-6'>
-          <Button isIconOnly>
+          <Button color="secondary" isIconOnly>
             <PlusIcon />
           </Button>
         </div>

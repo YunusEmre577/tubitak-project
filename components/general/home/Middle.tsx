@@ -36,15 +36,15 @@ export default function Middle() {
                 <DialogTrigger>
                 <div className={cn('p-5 cursor-pointer relative overflow-hidden flex flex-col items-start rounded-2xl border-accent border')}>
                 <div className='absolute inset-0 bg-colored blur-[374px] pointer-events-none' />
-                <header className='flex items-center gap-2'>
-                  <span className='text-xl text-colored'><Icon icon={`${icon}`} /></span>
-                  <span className='font-semibold text-base'>{title}</span>
+                <header className='flex flex-col items-start gap-3'>
+                  <span className='text-2xl text-colored h-14 w-14 rounded-full border border-tertiary flex items-center justify-center'><Icon icon={`${icon}`} /></span>
+                  <span className='font-bold text-base'>{title}</span>
                 </header>
-                <footer className='mt-4 flex flex-col'>
+                <footer className='mt-2 flex flex-col'>
                   <span className="text-[15px] !text-start text-muted">{description}</span>
                 </footer>
                 <div className='flex justify-end w-full mt-4'>
-                  <span className='h-9 w-9 bg-colored backdrop-blur-md flex justify-center text-foreground items-center text-2xl font-[100] rounded-full'>
+                  <span className='h-9 w-9 bg-accent backdrop-blur-md flex justify-center text-foreground items-center text-2xl font-[100] rounded-full'>
                     <PlusIcon />
                 </span>
                 </div>
