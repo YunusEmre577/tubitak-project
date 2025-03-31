@@ -35,7 +35,7 @@ export default function Middle() {
                <Dialog>
                 <DialogTrigger>
                 <div className={cn('p-5 cursor-pointer relative overflow-hidden flex flex-col items-start rounded-2xl border-tertiary border')}>
-                <div className='absolute inset-0 bg-colored blur-[374px] pointer-events-none' />
+                <div className='absolute inset-0 bg-colored blur-[700px] lg:blur-[400px] pointer-events-none' />
                 <header className='flex flex-col items-start gap-3'>
                   <span className='text-2xl text-colored h-14 w-14 rounded-full border border-tertiary flex items-center justify-center'><Icon icon={`${icon}`} /></span>
                   <span className='font-bold text-base'>{title}</span>
