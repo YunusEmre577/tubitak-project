@@ -16,7 +16,7 @@ export default function Middle() {
             Neden bu projeyi yapıyoruz?
         </Heading>
         <div className=' w-full'>
-          <Slick settings={{...settings,slidesToShow:4, responsive: [
+          <Slick settings={{...settings,slidesToShow:3, responsive: [
             {
               breakpoint: 1024,
               settings: {
@@ -34,14 +34,14 @@ export default function Middle() {
              <div className='px-2.5' key={i+1}>
                <Dialog>
                 <DialogTrigger>
-                <div className={cn('p-5 cursor-pointer relative overflow-hidden flex flex-col items-start rounded-2xl border-accent border')}>
+                <div className={cn('p-5 cursor-pointer relative overflow-hidden flex flex-col items-start rounded-2xl border-tertiary border')}>
                 <div className='absolute inset-0 bg-colored blur-[374px] pointer-events-none' />
                 <header className='flex flex-col items-start gap-3'>
                   <span className='text-2xl text-colored h-14 w-14 rounded-full border border-tertiary flex items-center justify-center'><Icon icon={`${icon}`} /></span>
                   <span className='font-bold text-base'>{title}</span>
                 </header>
                 <footer className='mt-2 flex flex-col'>
-                  <span className="text-[15px] !text-start text-muted">{description}</span>
+                  <span className="text-[15px] max-w-sm !text-start text-muted">{description}</span>
                 </footer>
                 <div className='flex justify-end w-full mt-4'>
                   <span className='h-9 w-9 bg-accent backdrop-blur-md flex justify-center text-foreground items-center text-2xl font-[100] rounded-full'>

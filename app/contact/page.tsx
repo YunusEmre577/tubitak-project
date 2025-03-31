@@ -33,9 +33,9 @@ export default function Page() {
         <AnimatePresence>
         {success != "" && (
             <motion.div
-            initial={{opacity:0, x:-8}}
-            animate={{opacity:1, x:0}}
-            exit={{opacity:0, x:-8}}
+            initial={{opacity:0, y:-8}}
+            animate={{opacity:1, y:0}}
+            exit={{opacity:0, y:-8}}
             className='relative top-0 flex w-full p-4 bg-secondary/60 backdrop-blur-md items-center justify-between'>
                 <span className='text-[15px] text-foreground font-medium'>{success}</span>
                 <button onClick={() => setSuccess("")} className='h-9 w-9 rounded-full text-foreground flex items-center justify-center transition hover:bg-muted/25'>
@@ -46,10 +46,10 @@ export default function Page() {
         </AnimatePresence>
         <Header />
         <BluredPage />
-        <section className='responsive mb-14 lg:mb-32 flex flex-col gap-8 items-center pt-20'>
+        <section className='px-6 mb-14 lg:mb-32 flex flex-col gap-8 items-center pt-20'>
             <header className='flex flex-col gap-3 items-center text-center'>
             <Heading className='text-center' size='4xl'>Bizimle iletişime geç</Heading>
-            <p className='text-lg text-muted'>Aşağıdaki formu doldur, bizimle iletişime geç!</p>
+            <p className='text-lg text-muted'>Aşağıdaki formu doldurup bizimle iletişime geçebilirsin, bu sayede kendimizi geliştirmemize yardımcı olabilirsin</p>
             </header>
             <footer className='grid grid-cols-1 w-[calc(100%-25%)] gap-6'>
                 <div className='flex flex-col lg:flex-row items-center gap-6 w-full'>

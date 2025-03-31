@@ -50,7 +50,7 @@ export default function Features() {
           {featuresData.slice(0, 3).map((feature, index) => (
             <Dialog key={index}>
                 <DialogTrigger asChild>
-                <div className={`cursor-pointer border-accent border-b flex flex-col gap-3 items-center p-5 ${index !== 2 ? 'lg:border-r' : ''}`}>
+                <div className={`cursor-pointer border-tertiary border-b flex flex-col gap-3 items-center p-5 ${index !== 2 ? 'lg:border-r' : ''}`}>
               <header className='flex flex-col items-center gap-2'>
                 <Icon className='text-3xl text-colored' icon={feature.icon} />
                 <h3 className='font-semibold text-foreground'>{feature.title}</h3>
@@ -88,7 +88,7 @@ export default function Features() {
           {featuresData.slice(3).map((feature, index) => (
             <Dialog key={index}>
                 <DialogTrigger asChild>
-                <div className={`cursor-pointer border-accent border-b lg:border-b-0 flex flex-col gap-3 items-center p-5 ${index % 2 == 0 ? 'lg:border-r' : 'border-b-0'}`}>
+                <div className={`cursor-pointer border-tertiary border-b lg:border-b-0 flex flex-col gap-3 items-center p-5 ${index % 2 == 0 ? 'lg:border-r' : 'border-b-0'}`}>
               <header className='flex flex-col items-center gap-2'>
                 <Icon className='text-3xl text-colored' icon={feature.icon} />
                 <h3 className='text-foreground font-semibold'>{feature.title}</h3>

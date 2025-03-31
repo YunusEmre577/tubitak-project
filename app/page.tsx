@@ -21,7 +21,7 @@ export default function Home() {
       <Header />
       <BluredPage />
       <div className={cn("absolute top-0 rotate z-[-1] h-screen w-full","[background-size:100px_100px]",
-          "[background-image:linear-gradient(to_right,#080808_1px,transparent_1px),linear-gradient(to_bottom,#080808_1px,transparent_1px)]",)}></div>
+          "[background-image:linear-gradient(to_right,#190909,transparent_1px),linear-gradient(to_bottom,#190909_1px,transparent_1px)]",)}></div>
       <section className="flex flex-col gap-36 mb-12">
         <HeroSection />
         <div className="mt-16"><Section /></div>

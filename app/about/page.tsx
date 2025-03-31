@@ -28,6 +28,28 @@ export default function page() {
       description: "Bazı etkenler sonucunda iklim değişikliğine duyarlılık oluşur."
     }
   ]
+  const infoProject = [
+    {
+      title: "Yazılım",
+      description: "Açık Kaynak Kodlu"
+    },
+    {
+      title: "İsim",
+      description: "Barajlarımız Buhar Olmasın."
+    },
+    {
+      title: "Amaç",
+      description: "Barajların üzerine güneş paneli koyarak buharlaşma gibi faktörleri engellemek."
+    },
+    {
+      title: "Takım",
+      description: "Nevriye Göksu, Yunus Emre Gün, Eymen Öztürk, Ömer Asaf Koçabaş, Tolga Özçelik"
+    },
+    {
+      title: "Hedef",
+      description: "Bu projeyi gerçek hayatta uygulamaya koymak."
+    }
+  ]
   return (
     <>
     <main>
@@ -35,9 +57,9 @@ export default function page() {
         <BluredPage />
         <div className='flex mb-12 flex-col gap-12 mt-20 items-center'>
           <div className='flex flex-col gap-16'>
-            <section className='responsive flex flex-col items-center gap-8'>
+            <section className='responsive w-full flex flex-col items-center gap-8'>
               <Heading size='2xl'>Doğaya kattıklarımız</Heading>
-              <table className=''>
+              <table className='w-full'>
                 <thead>
                   <tr className='border border-accent text-left'>
                     <th className='p-4 font-semibold text-foreground border-r border-r-accent'>Katkı</th>
@@ -54,14 +76,29 @@ export default function page() {
                 </tbody>
               </table>
             </section>
-            <section className='responsive flex flex-col items-center text-center gap-4'>
-              <Heading size='2xl'>Baraj üzerine güneş panellerinin kurulması nedir?</Heading>
-              <p className='text-muted'>Baraj üzerine güneş panellerinin kurulması, su tasarrufu, enerji üretimi gibi faktörlere katkı sağlamak amacıyla oluşturulmuş yaratıcı bir fikirdir. Baraj üzerine güneş paneli yerleştirilmesiyle ortaya çıkan tasarruf ve üretim, tamamen çevre dostu ve doğaya faydalı olduğundan bu projeyi ekipçe seçme kararı aldık.</p>
-            </section>
-            <section className='w-full'>
-              <Section showDescription={false} />
+            <section className='flex responsive flex-col items-center w-full gap-8'>
+              <Heading size="2xl">Proje Bilgileri</Heading>
+              <table className='w-full'>
+                <thead>
+                  <tr className='border border-accent text-left'>
+                    <th className='p-4 font-semibold text-foreground border-r border-r-accent'>Bilgi</th>
+                    <th className='p-4 font-semibold text-foreground'>Açıklama</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {infoProject.map((item, i) => (
+                    <tr className='border border-accent' key={i}>
+                      <td className='p-4 border-r-accent border-r text-muted font-medium'>{item.title}</td>
+                      <td className='p-4 text-[15px] font-medium text-slate-50/95'>{item.description}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </section>
           </div>
+          <section className='w-full'>
+              <Section showDescription={false} />
+            </section>
         </div>
 <Footer />
     </main>

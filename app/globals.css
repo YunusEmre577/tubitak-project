@@ -19,7 +19,7 @@
 }
 
 .responsive {
-  @apply px-8 lg:px-16;
+  @apply px-8 lg:px-20;
 }
 
 :root {
