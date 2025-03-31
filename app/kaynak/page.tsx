@@ -85,7 +85,7 @@ export default function page() {
     <main>
         <Header />
         <BluredPage />
-        <div className='responsive mt-20 flex flex-col items-center'>
+        <div className='responsive mt-20 mb-12 flex flex-col items-center'>
             <Heading size='4xl'>Kaynaklar</Heading>
             <div className='flex flex-col gap-3 mt-12'>
                 {kaynak.map(item => (
