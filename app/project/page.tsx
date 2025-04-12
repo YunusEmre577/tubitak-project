@@ -3,6 +3,7 @@ import Header from '@/components/general/Header'
 import React from 'react'
 import { BluredPage } from '../../components/ui/BluredPage';
 import Heading from '../../components/ui/Heading';
+import Footer from '@/components/general/Footer';
 
 export default function page() {
   return (
@@ -30,6 +31,8 @@ export default function page() {
               <p className='text-muted'>Projenin maket versiyonu üstte yer almaktadır. Su üzerine yerleştirilen güneş panelleri hem suyun buharlaşmasını engelleyecek hem de barajda elektrik üretimini artıracaktır.</p>
             </div>
         </section>
+
+        <Footer />
     </main>
   )
 }
