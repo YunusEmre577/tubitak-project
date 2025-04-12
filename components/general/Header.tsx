@@ -8,7 +8,7 @@ import { cn } from '../libs/utils'
 import { Tooltip, TooltipBody, TooltipTrigger } from '../ui/Tooltip'
 import { AnimatePresence, motion } from 'framer-motion'
 
-function LinkButton({title, icon, href, soon, ...props}: {title:string, icon:string, href:string,soon:boolean}) {
+function LinkButton({title, icon, href, ...props}: {title:string, icon:string, href:string}) {
     const pathname = usePathname()
     const isActive = pathname === href
 
@@ -51,9 +51,6 @@ function LinkButton({title, icon, href, soon, ...props}: {title:string, icon:str
                             </motion.span>
                         )}
                     </AnimatePresence>
-                    {soon&&(
-                                    <span className='uppercase text-[8px] font-[300] text-colored bg-colored/25 rounded-lg p-0.5 px-1'>yakinda</span>
-                                )}
                 </Link>
             </TooltipTrigger>
             <TooltipBody>
@@ -71,8 +68,8 @@ export default function Header() {
     <header className="flex sticky z-[99] top-0 pt-6 responsive items-center justify-center">
         <div className='p-1 bg-secondary/75 backdrop-blur-sm rounded-full'>
             <nav className='flex items-center gap-1'>
-                {headerContents.map(({title, href, icon, soon}: {title:string;href:string;icon:string;soon:boolean;}) => (
-                    <LinkButton title={title} href={href} icon={icon} soon={soon} key={href}/>
+                {headerContents.map(({title, href, icon}: {title:string;href:string;icon:string;}) => (
+                    <LinkButton title={title} href={href} icon={icon} key={href}/>
                 ))}
             </nav>
         </div>
