@@ -10,8 +10,8 @@ export default function HeroSection() {
     <h1 className="text-5xl lg:text-6xl text-center max-w-md lg:max-w-xl font-black">Barajlarımız buhar olup <span className='text-colored'>uçmasın</span></h1>
     <p className="text-muted text-lg max-w-md lg:max-w-lg text-center">Baraj göllerinin buharlaşma oranını düşürmek için yüzer güneş panelleri sistemi kurarak buharlaşmayı azaltmak ve tarım arazilerine ayrılmış alanların işgal edilmesini önlemek için buradayız.</p>
     <div className="flex flex-col w-full lg:justify-center lg:items-center responsive">
-    <Link className='w-full lg:w-fit flex flex-col' href={"/blog"}>
-    <Button className='w-full lg:w-fit' icon={"solar:alt-arrow-right-outline"}>Blog Sayfası</Button>
+    <Link className='w-full lg:w-fit flex flex-col' href={"/project"}>
+    <Button className='w-full lg:w-fit' icon={"solar:alt-arrow-right-outline"}>Projeye git</Button>
     </Link>
     </div>
     </div>

@@ -16,7 +16,7 @@ export default function Footer() {
             <Link className='text-muted hover:underline' target="_blank" href={"/about"}>Hakkında</Link>
             <Link className='text-muted hover:underline' target="_blank" href={"/project"}>Proje</Link>
             <Link className='text-muted hover:underline' target="_blank" href={"/contact"}>İletişim</Link>
-            <Link className='text-muted hover:underline' target="_blank" href={"/blog"}>Blog</Link>
+            <Link className='text-muted hover:underline' target="_blank" href={"/brosur"}>Broşür</Link>
           </nav>
         </section>
         <section className='flex flex-col gap-5'>
