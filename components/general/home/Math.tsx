@@ -79,7 +79,7 @@ export default function Math() {
 
   return (
     <section className='flex flex-col items-center responsive gap-12'>
-      <Heading size="4xl">Enerji tasarrufunu hesapla</Heading>
+      <Heading size="4xl">Enerji üretimini hesapla</Heading>
       <div className='flex flex-wrap w-full gap-6 lg:gap-12 justify-between'>
         <header className='flex flex-col gap-5 flex-1/4'>
           <TextField value={area || ""} error={areaError} onChange={(e) => setArea(Number(e.target.value))} type='number' description='Güneş panellerinin yüzey alanı' placeholder='Alan (m²)' />
