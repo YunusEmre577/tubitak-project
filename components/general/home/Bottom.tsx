@@ -1,13 +1,17 @@
 "use client"
-import React from 'react'
+/* import React from 'react'
 import data from "@/components/json/graphic_homepage.json"
 import CustomChart from '@/components/ui/Chart'
-import Heading from '../../ui/Heading';
+import Heading from '../../ui/Heading'; */
 
 export default function Bottom() {
 
-  return (
-      <section className='bg-secondary/60 flex flex-col gap-16'>
+  return null;
+}
+
+
+/*
+<section className='bg-secondary/60 flex flex-col gap-16'>
         <div className='responsive flex flex-col relative overflow-hidden items-center gap-12 py-8'>
         <Heading size='4xl' className='text-center'>Güneş paneli kullanılırsa ortalama <span className='text-indigo-300'>su</span> tasarrufu</Heading>
         <div className='absolute h-40 w-96 z-[-1] blur-[320px] pointer-events-none bg-colored' />
@@ -29,5 +33,4 @@ export default function Bottom() {
         <CustomChart type="line" data={data["4"]} className='h-[500px]' />
     </div>
       </section>
-  )
-}
+      */

@@ -30,7 +30,7 @@ export default function Section({ showDescription = true }: SectionProps) {
                   }
                 )}
               >
-                <div className='absolute pointer-events-none z-[-1] w-96 h-40 left-1/2 -translate-x-1/2 bg-colored blur-[500px]' />
+                <div className='absolute pointer-events-none z-[-1] w-96 h-32 left-1/2 -translate-x-1/2 bg-colored blur-[500px]' />
                 <header className='flex items-center gap-2'>
                   <div className='h-9 w-9 flex bg-colored justify-center items-center rounded-full'>
                     {image ? (
@@ -45,7 +45,6 @@ export default function Section({ showDescription = true }: SectionProps) {
                   </div>
                 </header>
 
-                {/* Açıklama gösterimi */}
                 {showDescription && (
                   <section>
                     <p className='text-[15px] text-muted'>{desc}</p>

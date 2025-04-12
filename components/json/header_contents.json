@@ -24,9 +24,8 @@
         "soon":false
     },
     {
-        "title": "Blog",
-        "icon": "solar:box",
-        "href": "/blog",
-        "soon":true
+        "title": "Broşür",
+        "icon": "solar:map",
+        "href": "/brosur"
     }
 ]
