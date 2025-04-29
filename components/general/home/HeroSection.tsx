@@ -14,7 +14,7 @@ export default function HeroSection() {
     <Button className='w-full lg:w-fit' icon={"solar:alt-arrow-right-outline"}>Projeye git</Button>
     </Link>
 <Link className="w-full lg:w-fit" href="#ekip">
-<Button icon="solar:arrow-down-outline" className="w-full lg:w-fit">Aşağı in</Button>
+<Button variant="ghost" icon="solar:arrow-down-outline" className="w-full lg:w-fit">Aşağı in</Button>
 </Link>
     </div>
     </div>
