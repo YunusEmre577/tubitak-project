@@ -43,7 +43,7 @@ export function Button({
       secondary: "border border-neutral-300 text-neutral-600 hover:bg-neutral-100",
     },
     ghost: {
-      primary: "text-black hover:bg-neutral-100",
+      primary: "text-muted hover:bg-secondary hover:text-foreground",
       secondary: "text-neutral-600 hover:bg-neutral-100",
     },
   }
