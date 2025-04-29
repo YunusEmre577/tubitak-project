@@ -15,7 +15,7 @@ type SectionProps = {
 
 export default function Section({ showDescription = true }: SectionProps) {
   return (
-    <section className='responsive flex flex-col items-center gap-8'>
+    <section id="ekip" className='responsive flex flex-col items-center gap-8'>
       <Heading size='4xl'>Ekip Kadrosu</Heading>
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 w-full'>
         {team.map(({ author, col_span, image, occ, desc }) => (
