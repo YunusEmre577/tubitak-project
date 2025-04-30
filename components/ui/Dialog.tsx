@@ -6,7 +6,7 @@ import { Cross2Icon } from '@radix-ui/react-icons';
 
 const classnames = {
   overlay: "fixed data-[state=open]:animate-scale-in data-[state=closed]:animate-scale-out inset-0 z-[998] bg-secondary/60 backdrop-blur-md",
-  content: "fixed data-[state=open]:animate-scale-in data-[state=closed]:animate-scale-out left-1/2 z-[999] top-1/2 max-h-[100vh] min-w-[440px] max-w-lg lg:max-w-2xl -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-black border border-muted/40"
+  content: "fixed data-[state=open]:animate-scale-in data-[state=closed]:animate-scale-out left-1/2 z-[999] top-1/2 max-h-[100vh] min-w-[400px] max-w-[calc(100%-6%)] lg:max-w-2xl -translate-x-1/2 -translate-y-1/2 rounded-2xl bg-black border border-muted/40"
 }
 
 function Dialog({children, ...props}:{children:React.ReactNode} & React.ComponentPropsWithoutRef<typeof Tool.Root>) {
